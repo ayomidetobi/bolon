@@ -1,0 +1,31 @@
+/* mobile devices with small screens */
+@media (max-width:480px){
+    /* this target devices  with maximum screen of 480px */
+    .img-wrap{
+        width: 100%;
+    }
+    .f-s-50.sm{
+        font-size: 10px;
+    }
+}
+/* tabelets devices or larger smart phones */
+@media (min-width:481px) and (max-width:768px) {
+    /* this target devices with maximum screen of 768px and minimum screen of 481px */
+    .img-wrap{
+        width: 100px;
+    }
+}
+ /* laptop and desktop */
+@media(min-width:769px) and (max-width:1024px) {
+    /* this target devices with maximum screen of 1024px and minimum screen of 769px */
+    
+}
+/* larger laptops or destops */
+@media(min-width:1025px) and (max-width:1280px) {
+    /* this target devices with maximum screen of 1280px and minimum screen of 1025px */
+}
+ /* tv's and extra large screens */
+ @media(min-width:1281px)  {
+    /* this target devices with minimum screen of 1281px */
+
+}
